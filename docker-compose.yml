@@ -1,9 +1,9 @@
 version: "3"
 services:
   web:
-    image: wolfram77/test-docker
+    image: wolfram77/test-docker:latest
     deploy:
-      replicas: 5
+      replicas: 2
       resources:
         limits:
           cpus: "0.1"
